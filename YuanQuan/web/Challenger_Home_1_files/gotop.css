@@ -1,0 +1,36 @@
+#gotop {
+	width: 50px; height: 50px; right: 8px; bottom: 8px; text-indent: -9999px; visibility: hidden; position: fixed; z-index: 99999; background-image: url("http://cdn.duitang.com/uploads/people/201303/08/20130308184024_8taKv.png"); background-repeat: no-repeat;
+}
+#gotop:link {
+	background-position: 0px 0px;
+}
+#gotop:visited {
+	background-position: 0px 0px;
+}
+#gotop:hover {
+	background-position: 0px -50px; text-decoration: none;
+}
+#gopre {
+	width: 50px; height: 100px; right: 0px; bottom: 100px; visibility: hidden; position: fixed; z-index: 99999; background-image: url("http://img4.duitang.com/uploads/files/201309/25/20130925233847_PYtKS.gif"); background-repeat: no-repeat;
+}
+#gonext {
+	width: 50px; height: 100px; right: 0px; bottom: 100px; visibility: hidden; position: fixed; z-index: 99999; background-image: url("http://img4.duitang.com/uploads/files/201309/25/20130925233847_PYtKS.gif"); background-repeat: no-repeat;
+}
+#gonext:link {
+	display: block;
+}
+#gonext:visited {
+	display: block;
+}
+#gopre:link {
+	background-position: -130px -250px; right: 50px; display: none;
+}
+#gopre:visited {
+	background-position: -130px -250px; right: 50px; display: none;
+}
+#gonext:hover {
+	background-color: rgba(230, 240, 250, 0.4);
+}
+#gopre:hover {
+	background-color: rgba(230, 240, 250, 0.4);
+}

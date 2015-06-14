@@ -1,0 +1,222 @@
+.redlk:link {
+	color: rgb(230, 85, 146); text-decoration: none;
+}
+.redlk:visited {
+	color: rgb(230, 85, 146); text-decoration: none;
+}
+.redlk a:link {
+	color: rgb(230, 85, 146); text-decoration: none;
+}
+.redlk a:visited {
+	color: rgb(230, 85, 146); text-decoration: none;
+}
+.redlk:hover {
+	color: rgb(230, 85, 146); text-decoration: underline;
+}
+.redlk a:hover {
+	color: rgb(230, 85, 146); text-decoration: underline;
+}
+.my-pic .woo {
+	background-position: right bottom; margin: 0px 21px 20px 0px; border-radius: 2px; height: auto; border-top-color: currentColor; border-top-width: 0px; border-top-style: none; float: left; background-repeat: no-repeat; background-color: rgb(255, 255, 255); -moz-border-radius: 2px; -webkit-border-radius: 2px;
+}
+.my-pic .woo-f {
+	background: none;
+}
+.my-pic .woo .blog-ppcount {
+	left: 0px; top: 0px; height: 16px; color: rgb(255, 255, 255); position: absolute; z-index: 2; background-color: red;
+}
+.my-pic .woo .j {
+	padding: 11px 0px 0px; border-radius: 2px 2px 0px 0px; border: 1px solid rgb(229, 229, 229); border-image: none; width: 242px; box-shadow: 1px 1px 1px rgba(240,240,240,0.3); -moz-border-radius: 2px 2px 0 0; -webkit-border-radius: 2px 2px 0 0; -moz-box-shadow: 1px 1px 1px rgba(240, 240, 240, .3); -webkit-box-shadow: 1px 1px 1px rgba(240, 240, 240, .3);
+}
+.my-pic .woo .mbpho {
+	margin-left: 11px;
+}
+.my-pic .o {
+	padding: 14px 16px 8px 15px; border: 1px solid rgb(247, 247, 247); border-image: none; width: auto; height: auto; background-color: rgb(247, 247, 247);
+}
+.my-pic .g {
+	margin: 0px; padding: 8px 11px 6px; line-height: 1.5; overflow: hidden; clear: both; -ms-word-break: break-all; -ms-word-wrap: break-word; background-color: rgb(248, 248, 248);
+}
+div.my-pic .mbpho {
+	margin: 0px 0px 8px; width: 200px; height: auto; overflow: hidden; float: none;
+}
+div.my-pic .mbpho img {
+	margin-right: auto; margin-left: auto; display: block; max-width: 200px; _width: 200px;
+}
+.my-pic .a {
+	width: 100%; height: 100%; float: left;
+}
+.my-pic .a u {
+	background: url("http://cdn.duitang.com/img/0/cover.png") repeat-x 0px bottom; width: 100%; height: 80px; margin-top: -80px; display: block; position: relative; _display: none;
+}
+div.my-pic .mbpho .k {
+	background: url("http://cdn.duitang.com/uploads/people/201207/06/20120706224429_3JzGy.png") no-repeat; width: 208px;
+}
+div.my-pic .mbpho .k img {
+	margin: 0px 4px 4px 0px; float: left;
+}
+.my-pic .w {
+	margin: 0px; padding: 0px 11px 12px; height: 18px; overflow: hidden; clear: both; background-color: rgb(248, 248, 248);
+}
+.my-pic div.d {
+	margin: 0px; padding: 0px 11px; height: 28px; overflow: hidden; border-bottom-color: rgb(239, 238, 237); border-bottom-width: 1px; border-bottom-style: solid; background-color: rgb(255, 255, 255);
+}
+.my-pic .d span {
+	margin: 0px 12px 0px 0px; padding: 0px 0px 0px 22px; color: rgb(180, 180, 180); line-height: 19px; font-size: 14px; float: left; background-image: url("http://cdn.duitang.com/uploads/files/201211/26/20121126121246_VXE8F.png"); background-repeat: no-repeat; _background-image: url(http://cdn.duitang.com/uploads/files/201211/30/20121130160101_ePSJe.png);
+}
+.my-pic .d .d1 {
+	background-position: -220px 0px;
+}
+.my-pic .d .d1-done {
+	background-position: -320px 0px;
+}
+.my-pic .d .d2 {
+	background-position: -220px -20px;
+}
+.my-pic .d .d2-done {
+	background-position: -320px -20px;
+}
+.my-pic .d .d3 {
+	background-position: -220px -40px;
+}
+.my-pic .d .d4 {
+	background-position: -220px -60px;
+}
+.my-pic .d .d5 {
+	background-position: -220px -80px;
+}
+div div.my-album {
+	visibility: visible;
+}
+.my-album .woo {
+	margin: 0px 19px 18px 0px; padding: 0px 0px 0px 1px; width: 230px; height: 308px; overflow: hidden; float: left;
+}
+.my-album .albbigimg {
+	height: 208px; position: relative;
+}
+.my-album .lev0 {
+	padding: 1px; border: 1px solid rgb(216, 216, 216); border-image: none; left: 0px; top: 4px; width: 200px; height: 200px; overflow: hidden; position: absolute; background-color: rgb(255, 255, 255);
+}
+.my-album .lev1 {
+	padding: 1px; border: 1px solid rgb(216, 216, 216); border-image: none; left: 0px; top: 4px; width: 200px; height: 200px; overflow: hidden; position: absolute; background-color: rgb(255, 255, 255);
+}
+.my-album .lev2 {
+	padding: 1px; border: 1px solid rgb(216, 216, 216); border-image: none; left: 0px; top: 4px; width: 200px; height: 200px; overflow: hidden; position: absolute; background-color: rgb(255, 255, 255);
+}
+.my-album a.lev0:link {
+	
+}
+.my-album a.lev0:visited {
+	
+}
+.my-album a.lev0:hover {
+	opacity: 0.9;
+}
+.my-album p.lev1 {
+	left: 2px; top: 2px;
+}
+.my-album p.lev2 {
+	left: 4px; top: 0px;
+}
+.my-album .lev3 {
+	left: 2px; bottom: 2px; color: rgb(255, 255, 255); line-height: 28px; position: absolute;
+}
+.my-album .albbigimg div {
+	left: 2px; bottom: 2px; color: rgb(255, 255, 255); line-height: 28px; position: absolute;
+}
+.my-album .lev3 {
+	width: 200px; height: 28px; opacity: 0.3; background-color: rgb(0, 0, 0);
+}
+.my-album .albbigimg div {
+	padding: 0px 0px 0px 8px;
+}
+.my-album li {
+	padding: 4px 0px; width: 208px; color: rgb(102, 102, 102);
+}
+.my-album li span {
+	color: rgb(187, 187, 187);
+}
+.my-album li.clr {
+	height: 24px; line-height: 28px; overflow: hidden;
+}
+.my-album li.clr img {
+	margin: 0px 6px 0px 0px; width: 24px; height: 24px; vertical-align: middle; float: left;
+}
+.my-album li.clr a:link {
+	
+}
+.my-album li.clr a:visited {
+	
+}
+.woo-pager {
+	text-align: center;
+}
+#switchholder {
+	margin: 0px 0px 16px; padding-left: 100px; border-bottom-color: rgb(235, 235, 235); border-bottom-width: 1px; border-bottom-style: solid; -ms-zoom: 1;
+}
+#switchholder::after {
+	height: 0px; overflow: hidden; clear: both; display: block; content: "\0020";
+}
+#switchholder li {
+	list-style: none; margin: 0px 4px 0px 0px; float: left;
+}
+#switchholder li a {
+	padding: 5px 16px 4px; line-height: 19px; margin-top: 2px; float: left; background-color: rgb(247, 247, 247);
+}
+#switchholder li.woo-cur a:link {
+	border-width: 1px; border-style: solid; border-color: rgb(235, 235, 235) rgb(235, 235, 235) rgb(255, 255, 255); border-image: none; bottom: -1px; margin-top: 0px; position: relative; background-color: rgb(255, 255, 255);
+}
+#switchholder li.woo-cur a:visited {
+	border-width: 1px; border-style: solid; border-color: rgb(235, 235, 235) rgb(235, 235, 235) rgb(255, 255, 255); border-image: none; bottom: -1px; margin-top: 0px; position: relative; background-color: rgb(255, 255, 255);
+}
+html {
+	background-color: rgb(255, 255, 255);
+}
+body {
+	background-color: rgb(255, 255, 255);
+}
+h1 a {
+	background: url("http://img4.duitang.com/uploads/files/201309/25/20130925232523_YSTKT.gif") no-repeat center 12px; width: 140px; height: 96px; text-indent: -9999px; display: block;
+}
+#footer {
+	margin: 0px; padding: 16px 0px 0px 16px; height: 40px; border-top-color: rgb(247, 247, 247); border-top-width: 1px; border-top-style: solid; display: none;
+}
+.lattern {
+	float: right;
+}
+.lattern a {
+	margin: 0px 8px;
+}
+#preserve {
+	display: none;
+}
+#preserve h2 {
+	margin: 16px 0px 0px; padding: 0px 0px 0px 16px; line-height: 31px; font-family: "Î¢ÈíÑÅºÚ"; font-size: 16px; font-weight: bold;
+}
+#preserve ul {
+	margin: 8px 0px 0px;
+}
+#preserve li {
+	padding: 0px 16px; line-height: 31px; -ms-zoom: 1;
+}
+#preserve li::after {
+	height: 0px; overflow: hidden; clear: both; display: block; content: "\0020";
+}
+#preserve li:nth-child(2n-1) {
+	background-color: rgb(247, 247, 247);
+}
+#preserve li p {
+	float: left;
+}
+#preserve li u {
+	width: 200px; float: left;
+}
+#mytags {
+	padding: 8px 4px 4px 8px; border-radius: 5px; border: 1px solid rgb(229, 229, 229); border-image: none; background-color: rgb(247, 247, 247);
+}
+#mytags a {
+	margin: 0px 2px 4px 0px; padding: 2px 8px 0px; border-radius: 3px; border: 1px solid rgb(230, 230, 230); border-image: none; line-height: 21px; font-family: "ËÎÌå"; display: inline-block; background-color: rgb(255, 255, 255); -moz-box-align: stretch;
+}
+#mytags a {
+	
+}

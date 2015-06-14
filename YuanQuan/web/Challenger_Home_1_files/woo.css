@@ -1,0 +1,12 @@
+.woo-loading {
+	background: url("http://cdn.duitang.com/uploads/people/201307/30/20130730175612_KU2dF.gif") no-repeat center 12px; height: 40px;
+}
+.woo-pcont {
+	
+}
+.woo-masned {
+	overflow: hidden; margin-right: auto; margin-left: auto; visibility: hidden; -ms-zoom: 1;
+}
+.woo-masned .woo {
+	top: -6000px; position: absolute;
+}

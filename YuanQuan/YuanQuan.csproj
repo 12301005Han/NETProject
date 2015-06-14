@@ -1,0 +1,604 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A9DFBE74-6A26-421F-A3AF-56280385EC2B}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>YuanQuan</RootNamespace>
+    <AssemblyName>YuanQuan</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="About.aspx" />
+    <Content Include="Account\ChangePassword.aspx" />
+    <Content Include="Account\ChangePasswordSuccess.aspx" />
+    <Content Include="Account\Login.aspx" />
+    <Content Include="Account\Register.aspx" />
+    <Content Include="Styles\Site.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="web\Challenger_Home_1_files\bootstrap-filestyle.js" />
+    <Content Include="web\Challenger_Home_1_files\bootstrap-select.min.css" />
+    <Content Include="web\Challenger_Home_1_files\bootstrap-select.min.js" />
+    <Content Include="web\Challenger_Home_1_files\bootstrap-switch.min.css" />
+    <Content Include="web\Challenger_Home_1_files\bootstrap-switch.min.js" />
+    <Content Include="web\Challenger_Home_1_files\bootstrap.min.css" />
+    <Content Include="web\Challenger_Home_1_files\bootstrap.min.js" />
+    <Content Include="web\Challenger_Home_1_files\browser.js" />
+    <Content Include="web\Challenger_Home_1_files\carousel.css" />
+    <Content Include="web\Challenger_Home_1_files\code.png" />
+    <Content Include="web\Challenger_Home_1_files\font-awesome.min.css" />
+    <Content Include="web\Challenger_Home_1_files\gotop.css" />
+    <Content Include="web\Challenger_Home_1_files\history.js" />
+    <Content Include="web\Challenger_Home_1_files\index.js" />
+    <Content Include="web\Challenger_Home_1_files\jquery-1.11.0.min.js" />
+    <Content Include="web\Challenger_Home_1_files\jquery.sparkline.min.js" />
+    <Content Include="web\Challenger_Home_1_files\main.css" />
+    <Content Include="web\Challenger_Home_1_files\masnunit.js" />
+    <Content Include="web\Challenger_Home_1_files\resize.css" />
+    <Content Include="web\Challenger_Home_1_files\script.js" />
+    <Content Include="web\Challenger_Home_1_files\style%281%29.css" />
+    <Content Include="web\Challenger_Home_1_files\style.css" />
+    <Content Include="web\Challenger_Home_1_files\style_new.css" />
+    <Content Include="web\Challenger_Home_1_files\summernote-bs3.css" />
+    <Content Include="web\Challenger_Home_1_files\summernote.css" />
+    <Content Include="web\Challenger_Home_1_files\summernote.min.js" />
+    <Content Include="web\Challenger_Home_1_files\tabswitch.js" />
+    <Content Include="web\Challenger_Home_1_files\template.min.js" />
+    <Content Include="web\Challenger_Home_1_files\wlogo_sm.png" />
+    <Content Include="web\Challenger_Home_1_files\woo.css" />
+    <Content Include="web\Challenger_Home_1_files\woo.js" />
+    <Content Include="web\Challenger_Home_2.2_files\bootstrap-filestyle.js" />
+    <Content Include="web\Challenger_Home_2.2_files\bootstrap-select.min.css" />
+    <Content Include="web\Challenger_Home_2.2_files\bootstrap-select.min.js" />
+    <Content Include="web\Challenger_Home_2.2_files\bootstrap-switch.min.css" />
+    <Content Include="web\Challenger_Home_2.2_files\bootstrap-switch.min.js" />
+    <Content Include="web\Challenger_Home_2.2_files\bootstrap.min.css" />
+    <Content Include="web\Challenger_Home_2.2_files\bootstrap.min.js" />
+    <Content Include="web\Challenger_Home_2.2_files\font-awesome.min.css" />
+    <Content Include="web\Challenger_Home_2.2_files\jquery-1.11.0.min.js" />
+    <Content Include="web\Challenger_Home_2.2_files\jquery.sparkline.min.js" />
+    <Content Include="web\Challenger_Home_2.2_files\script.js" />
+    <Content Include="web\Challenger_Home_2.2_files\style%281%29.css" />
+    <Content Include="web\Challenger_Home_2.2_files\style.css" />
+    <Content Include="web\Challenger_Home_2.2_files\style_new.css" />
+    <Content Include="web\Challenger_Home_2.2_files\summernote-bs3.css" />
+    <Content Include="web\Challenger_Home_2.2_files\summernote.css" />
+    <Content Include="web\Challenger_Home_2.2_files\summernote.min.js" />
+    <Content Include="web\Challenger_Home_2.2_files\wlogo_sm.png" />
+    <Content Include="web\Challenger_Home_2_files\bootstrap-filestyle.js" />
+    <Content Include="web\Challenger_Home_2_files\bootstrap-select.min.css" />
+    <Content Include="web\Challenger_Home_2_files\bootstrap-select.min.js" />
+    <Content Include="web\Challenger_Home_2_files\bootstrap-switch.min.css" />
+    <Content Include="web\Challenger_Home_2_files\bootstrap-switch.min.js" />
+    <Content Include="web\Challenger_Home_2_files\bootstrap.min.css" />
+    <Content Include="web\Challenger_Home_2_files\bootstrap.min.js" />
+    <Content Include="web\Challenger_Home_2_files\font-awesome.min.css" />
+    <Content Include="web\Challenger_Home_2_files\jquery-1.11.0.min.js" />
+    <Content Include="web\Challenger_Home_2_files\jquery.sparkline.min.js" />
+    <Content Include="web\Challenger_Home_2_files\script.js" />
+    <Content Include="web\Challenger_Home_2_files\style%281%29.css" />
+    <Content Include="web\Challenger_Home_2_files\style.css" />
+    <Content Include="web\Challenger_Home_2_files\style_new.css" />
+    <Content Include="web\Challenger_Home_2_files\summernote-bs3.css" />
+    <Content Include="web\Challenger_Home_2_files\summernote.css" />
+    <Content Include="web\Challenger_Home_2_files\summernote.min.js" />
+    <Content Include="web\Challenger_Home_2_files\wlogo_sm.png" />
+    <Content Include="web\Challenger_Home_3.2_files\bootstrap-filestyle.js" />
+    <Content Include="web\Challenger_Home_3.2_files\bootstrap-select.min.css" />
+    <Content Include="web\Challenger_Home_3.2_files\bootstrap-switch.min.css" />
+    <Content Include="web\Challenger_Home_3.2_files\bootstrap-switch.min.js" />
+    <Content Include="web\Challenger_Home_3.2_files\bootstrap.min.css" />
+    <Content Include="web\Challenger_Home_3.2_files\bootstrap.min.js" />
+    <Content Include="web\Challenger_Home_3.2_files\Chart.js" />
+    <Content Include="web\Challenger_Home_3.2_files\csdn2.png" />
+    <Content Include="web\Challenger_Home_3.2_files\font-awesome.min.css" />
+    <Content Include="web\Challenger_Home_3.2_files\github2.png" />
+    <Content Include="web\Challenger_Home_3.2_files\jquery-1.11.0.min.js" />
+    <Content Include="web\Challenger_Home_3.2_files\jquery.sparkline.min.js" />
+    <Content Include="web\Challenger_Home_3.2_files\quora2.png" />
+    <Content Include="web\Challenger_Home_3.2_files\sf2.png" />
+    <Content Include="web\Challenger_Home_3.2_files\sina2.png" />
+    <Content Include="web\Challenger_Home_3.2_files\stackoverflow2.png" />
+    <Content Include="web\Challenger_Home_3.2_files\style%281%29.css" />
+    <Content Include="web\Challenger_Home_3.2_files\style.css" />
+    <Content Include="web\Challenger_Home_3.2_files\style_new.css" />
+    <Content Include="web\Challenger_Home_3.2_files\summernote-bs3.css" />
+    <Content Include="web\Challenger_Home_3.2_files\summernote.css" />
+    <Content Include="web\Challenger_Home_3.2_files\summernote.min.js" />
+    <Content Include="web\Challenger_Home_3.2_files\wlogo_sm.png" />
+    <Content Include="web\Challenger_Home_3.2_files\zhihu2.png" />
+    <Content Include="web\Challenger_Home_3_files\bootstrap-filestyle.js" />
+    <Content Include="web\Challenger_Home_3_files\bootstrap-select.min.css" />
+    <Content Include="web\Challenger_Home_3_files\bootstrap-select.min.js" />
+    <Content Include="web\Challenger_Home_3_files\bootstrap-switch.min.css" />
+    <Content Include="web\Challenger_Home_3_files\bootstrap-switch.min.js" />
+    <Content Include="web\Challenger_Home_3_files\bootstrap.min.css" />
+    <Content Include="web\Challenger_Home_3_files\bootstrap.min.js" />
+    <Content Include="web\Challenger_Home_3_files\bootstrapValidator.css" />
+    <Content Include="web\Challenger_Home_3_files\bootstrapValidator.js" />
+    <Content Include="web\Challenger_Home_3_files\font-awesome.min.css" />
+    <Content Include="web\Challenger_Home_3_files\jquery-1.11.0.min.js" />
+    <Content Include="web\Challenger_Home_3_files\jquery.city.select.js" />
+    <Content Include="web\Challenger_Home_3_files\jquery.sparkline.min.js" />
+    <Content Include="web\Challenger_Home_3_files\script.js" />
+    <Content Include="web\Challenger_Home_3_files\style%281%29.css" />
+    <Content Include="web\Challenger_Home_3_files\style.css" />
+    <Content Include="web\Challenger_Home_3_files\style_new.css" />
+    <Content Include="web\Challenger_Home_3_files\summernote-bs3.css" />
+    <Content Include="web\Challenger_Home_3_files\summernote.css" />
+    <Content Include="web\Challenger_Home_3_files\summernote.min.js" />
+    <Content Include="web\Challenger_Home_3_files\wlogo_sm.png" />
+    <Content Include="web\Challenger_Menu_1_files\bootstrap-filestyle.js" />
+    <Content Include="web\Challenger_Menu_1_files\bootstrap-select.min.css" />
+    <Content Include="web\Challenger_Menu_1_files\bootstrap-select.min.js" />
+    <Content Include="web\Challenger_Menu_1_files\bootstrap-switch.min.css" />
+    <Content Include="web\Challenger_Menu_1_files\bootstrap-switch.min.js" />
+    <Content Include="web\Challenger_Menu_1_files\bootstrap.min.css" />
+    <Content Include="web\Challenger_Menu_1_files\bootstrap.min.js" />
+    <Content Include="web\Challenger_Menu_1_files\bootstrapValidator.js" />
+    <Content Include="web\Challenger_Menu_1_files\font-awesome.min.css" />
+    <Content Include="web\Challenger_Menu_1_files\jquery-1.11.0.min.js" />
+    <Content Include="web\Challenger_Menu_1_files\jquery.sparkline.min.js" />
+    <Content Include="web\Challenger_Menu_1_files\script.js" />
+    <Content Include="web\Challenger_Menu_1_files\style%281%29.css" />
+    <Content Include="web\Challenger_Menu_1_files\style.css" />
+    <Content Include="web\Challenger_Menu_1_files\style_new.css" />
+    <Content Include="web\Challenger_Menu_1_files\summernote-bs3.css" />
+    <Content Include="web\Challenger_Menu_1_files\summernote.css" />
+    <Content Include="web\Challenger_Menu_1_files\summernote.min.js" />
+    <Content Include="web\Challenger_Menu_1_files\wlogo_sm.png" />
+    <Content Include="web\Company_Home_1.1_files\1085.jpg" />
+    <Content Include="web\Company_Home_1.1_files\bootstrap-filestyle.js" />
+    <Content Include="web\Company_Home_1.1_files\bootstrap-select.min.css" />
+    <Content Include="web\Company_Home_1.1_files\bootstrap-select.min.js" />
+    <Content Include="web\Company_Home_1.1_files\bootstrap-switch.min.css" />
+    <Content Include="web\Company_Home_1.1_files\bootstrap-switch.min.js" />
+    <Content Include="web\Company_Home_1.1_files\bootstrap.min.css" />
+    <Content Include="web\Company_Home_1.1_files\bootstrap.min.js" />
+    <Content Include="web\Company_Home_1.1_files\font-awesome.min.css" />
+    <Content Include="web\Company_Home_1.1_files\jquery-1.11.0.min.js" />
+    <Content Include="web\Company_Home_1.1_files\jquery.sparkline.min.js" />
+    <Content Include="web\Company_Home_1.1_files\script.js" />
+    <Content Include="web\Company_Home_1.1_files\style%281%29.css" />
+    <Content Include="web\Company_Home_1.1_files\style.css" />
+    <Content Include="web\Company_Home_1.1_files\style_new.css" />
+    <Content Include="web\Company_Home_1.1_files\summernote-bs3.css" />
+    <Content Include="web\Company_Home_1.1_files\summernote.css" />
+    <Content Include="web\Company_Home_1.1_files\summernote.min.js" />
+    <Content Include="web\Company_Home_1.1_files\wlogo_sm.png" />
+    <Content Include="web\Company_Home_1.2_files\1085.jpg" />
+    <Content Include="web\Company_Home_1.2_files\bootstrap-filestyle.js" />
+    <Content Include="web\Company_Home_1.2_files\bootstrap-select.min.css" />
+    <Content Include="web\Company_Home_1.2_files\bootstrap-select.min.js" />
+    <Content Include="web\Company_Home_1.2_files\bootstrap-switch.min.css" />
+    <Content Include="web\Company_Home_1.2_files\bootstrap-switch.min.js" />
+    <Content Include="web\Company_Home_1.2_files\bootstrap.min.css" />
+    <Content Include="web\Company_Home_1.2_files\bootstrap.min.js" />
+    <Content Include="web\Company_Home_1.2_files\font-awesome.min.css" />
+    <Content Include="web\Company_Home_1.2_files\jquery-1.11.0.min.js" />
+    <Content Include="web\Company_Home_1.2_files\jquery.sparkline.min.js" />
+    <Content Include="web\Company_Home_1.2_files\script.js" />
+    <Content Include="web\Company_Home_1.2_files\style%281%29.css" />
+    <Content Include="web\Company_Home_1.2_files\style.css" />
+    <Content Include="web\Company_Home_1.2_files\style_new.css" />
+    <Content Include="web\Company_Home_1.2_files\summernote-bs3.css" />
+    <Content Include="web\Company_Home_1.2_files\summernote.css" />
+    <Content Include="web\Company_Home_1.2_files\summernote.min.js" />
+    <Content Include="web\Company_Home_1.2_files\wlogo_sm.png" />
+    <Content Include="web\Company_Home_2_files\bootstrap-filestyle.js" />
+    <Content Include="web\Company_Home_2_files\bootstrap-select.min.css" />
+    <Content Include="web\Company_Home_2_files\bootstrap-select.min.js" />
+    <Content Include="web\Company_Home_2_files\bootstrap-switch.min.css" />
+    <Content Include="web\Company_Home_2_files\bootstrap-switch.min.js" />
+    <Content Include="web\Company_Home_2_files\bootstrap.min.css" />
+    <Content Include="web\Company_Home_2_files\bootstrap.min.js" />
+    <Content Include="web\Company_Home_2_files\font-awesome.min.css" />
+    <Content Include="web\Company_Home_2_files\java.png" />
+    <Content Include="web\Company_Home_2_files\jquery-1.11.0.min.js" />
+    <Content Include="web\Company_Home_2_files\jquery.sparkline.min.js" />
+    <Content Include="web\Company_Home_2_files\script.js" />
+    <Content Include="web\Company_Home_2_files\style%281%29.css" />
+    <Content Include="web\Company_Home_2_files\style.css" />
+    <Content Include="web\Company_Home_2_files\style_new.css" />
+    <Content Include="web\Company_Home_2_files\summernote-bs3.css" />
+    <Content Include="web\Company_Home_2_files\summernote.css" />
+    <Content Include="web\Company_Home_2_files\summernote.min.js" />
+    <Content Include="web\Company_Home_2_files\wlogo_sm.png" />
+    <Content Include="web\Company_Menu_1_files\1050.jpg" />
+    <Content Include="web\Company_Menu_1_files\bootstrap-filestyle.js" />
+    <Content Include="web\Company_Menu_1_files\bootstrap-select.min.css" />
+    <Content Include="web\Company_Menu_1_files\bootstrap-select.min.js" />
+    <Content Include="web\Company_Menu_1_files\bootstrap-switch.min.css" />
+    <Content Include="web\Company_Menu_1_files\bootstrap-switch.min.js" />
+    <Content Include="web\Company_Menu_1_files\bootstrap.min.css" />
+    <Content Include="web\Company_Menu_1_files\bootstrap.min.js" />
+    <Content Include="web\Company_Menu_1_files\bootstrapValidator.css" />
+    <Content Include="web\Company_Menu_1_files\bootstrapValidator.js" />
+    <Content Include="web\Company_Menu_1_files\font-awesome.min.css" />
+    <Content Include="web\Company_Menu_1_files\jquery-1.11.0.min.js" />
+    <Content Include="web\Company_Menu_1_files\jquery.sparkline.min.js" />
+    <Content Include="web\Company_Menu_1_files\script.js" />
+    <Content Include="web\Company_Menu_1_files\style%281%29.css" />
+    <Content Include="web\Company_Menu_1_files\style.css" />
+    <Content Include="web\Company_Menu_1_files\style_new.css" />
+    <Content Include="web\Company_Menu_1_files\summernote-bs3.css" />
+    <Content Include="web\Company_Menu_1_files\summernote.css" />
+    <Content Include="web\Company_Menu_1_files\summernote.min.js" />
+    <Content Include="web\Company_Menu_1_files\wlogo_sm.png" />
+    <Content Include="web\Company_Menu_2_files\1050.jpg" />
+    <Content Include="web\Company_Menu_2_files\bootstrap-filestyle.js" />
+    <Content Include="web\Company_Menu_2_files\bootstrap-select.min.css" />
+    <Content Include="web\Company_Menu_2_files\bootstrap-select.min.js" />
+    <Content Include="web\Company_Menu_2_files\bootstrap-switch.min.css" />
+    <Content Include="web\Company_Menu_2_files\bootstrap-switch.min.js" />
+    <Content Include="web\Company_Menu_2_files\bootstrap.min.css" />
+    <Content Include="web\Company_Menu_2_files\bootstrap.min.js" />
+    <Content Include="web\Company_Menu_2_files\font-awesome.min.css" />
+    <Content Include="web\Company_Menu_2_files\jquery-1.11.0.min.js" />
+    <Content Include="web\Company_Menu_2_files\jquery.sparkline.min.js" />
+    <Content Include="web\Company_Menu_2_files\script.js" />
+    <Content Include="web\Company_Menu_2_files\style%281%29.css" />
+    <Content Include="web\Company_Menu_2_files\style.css" />
+    <Content Include="web\Company_Menu_2_files\style_new.css" />
+    <Content Include="web\Company_Menu_2_files\summernote-bs3.css" />
+    <Content Include="web\Company_Menu_2_files\summernote.css" />
+    <Content Include="web\Company_Menu_2_files\summernote.min.js" />
+    <Content Include="web\Company_Menu_2_files\wlogo_sm.png" />
+    <Content Include="web\Company_Menu_3_files\bootstrap-filestyle.js" />
+    <Content Include="web\Company_Menu_3_files\bootstrap-select.min.css" />
+    <Content Include="web\Company_Menu_3_files\bootstrap-select.min.js" />
+    <Content Include="web\Company_Menu_3_files\bootstrap-switch.min.css" />
+    <Content Include="web\Company_Menu_3_files\bootstrap-switch.min.js" />
+    <Content Include="web\Company_Menu_3_files\bootstrap.min.css" />
+    <Content Include="web\Company_Menu_3_files\bootstrap.min.js" />
+    <Content Include="web\Company_Menu_3_files\bootstrapValidator.js" />
+    <Content Include="web\Company_Menu_3_files\font-awesome.min.css" />
+    <Content Include="web\Company_Menu_3_files\jquery-1.11.0.min.js" />
+    <Content Include="web\Company_Menu_3_files\jquery.sparkline.min.js" />
+    <Content Include="web\Company_Menu_3_files\script.js" />
+    <Content Include="web\Company_Menu_3_files\style%281%29.css" />
+    <Content Include="web\Company_Menu_3_files\style.css" />
+    <Content Include="web\Company_Menu_3_files\style_new.css" />
+    <Content Include="web\Company_Menu_3_files\summernote-bs3.css" />
+    <Content Include="web\Company_Menu_3_files\summernote.css" />
+    <Content Include="web\Company_Menu_3_files\summernote.min.js" />
+    <Content Include="web\Company_Menu_3_files\wlogo_sm.png" />
+    <Content Include="web\Company_new_files\1085.jpg" />
+    <Content Include="web\Company_new_files\android.png" />
+    <Content Include="web\Company_new_files\apple.png" />
+    <Content Include="web\Company_new_files\bootstrap-filestyle.js" />
+    <Content Include="web\Company_new_files\bootstrap-select.min.css" />
+    <Content Include="web\Company_new_files\bootstrap-select.min.js" />
+    <Content Include="web\Company_new_files\bootstrap-switch.min.css" />
+    <Content Include="web\Company_new_files\bootstrap-switch.min.js" />
+    <Content Include="web\Company_new_files\bootstrap.min.css" />
+    <Content Include="web\Company_new_files\bootstrap.min.js" />
+    <Content Include="web\Company_new_files\bootstrapValidator.css" />
+    <Content Include="web\Company_new_files\bootstrapValidator.js" />
+    <Content Include="web\Company_new_files\c.png" />
+    <Content Include="web\Company_new_files\cpp.png" />
+    <Content Include="web\Company_new_files\font-awesome.min.css" />
+    <Content Include="web\Company_new_files\java.png" />
+    <Content Include="web\Company_new_files\jquery-1.11.0.min.js" />
+    <Content Include="web\Company_new_files\jquery.sparkline.min.js" />
+    <Content Include="web\Company_new_files\new_c1.png" />
+    <Content Include="web\Company_new_files\php.png" />
+    <Content Include="web\Company_new_files\python.png" />
+    <Content Include="web\Company_new_files\script.js" />
+    <Content Include="web\Company_new_files\style%281%29.css" />
+    <Content Include="web\Company_new_files\style.css" />
+    <Content Include="web\Company_new_files\style_new.css" />
+    <Content Include="web\Company_new_files\summernote-bs3.css" />
+    <Content Include="web\Company_new_files\summernote.css" />
+    <Content Include="web\Company_new_files\summernote.min.js" />
+    <Content Include="web\Company_new_files\WdatePicker.js" />
+    <Content Include="web\Company_new_files\wlogo_sm.png" />
+    <Content Include="web\Company_SignUp_1_files\bootstrap-filestyle.js" />
+    <Content Include="web\Company_SignUp_1_files\bootstrap-select.min.css" />
+    <Content Include="web\Company_SignUp_1_files\bootstrap-select.min.js" />
+    <Content Include="web\Company_SignUp_1_files\bootstrap-switch.min.css" />
+    <Content Include="web\Company_SignUp_1_files\bootstrap-switch.min.js" />
+    <Content Include="web\Company_SignUp_1_files\bootstrap.min.css" />
+    <Content Include="web\Company_SignUp_1_files\bootstrap.min.js" />
+    <Content Include="web\Company_SignUp_1_files\bootstrapValidator.css" />
+    <Content Include="web\Company_SignUp_1_files\bootstrapValidator.js" />
+    <Content Include="web\Company_SignUp_1_files\font-awesome.min.css" />
+    <Content Include="web\Company_SignUp_1_files\jquery-1.11.0.min.js" />
+    <Content Include="web\Company_SignUp_1_files\jquery.city.select.js" />
+    <Content Include="web\Company_SignUp_1_files\jquery.sparkline.min.js" />
+    <Content Include="web\Company_SignUp_1_files\script.js" />
+    <Content Include="web\Company_SignUp_1_files\style%281%29.css" />
+    <Content Include="web\Company_SignUp_1_files\style.css" />
+    <Content Include="web\Company_SignUp_1_files\style_new.css" />
+    <Content Include="web\Company_SignUp_1_files\summernote-bs3.css" />
+    <Content Include="web\Company_SignUp_1_files\summernote.css" />
+    <Content Include="web\Company_SignUp_1_files\summernote.min.js" />
+    <Content Include="web\Company_SignUp_1_files\wlogo_sm.png" />
+    <Content Include="web\Company_SignUp_3_files\bootstrap-filestyle.js" />
+    <Content Include="web\Company_SignUp_3_files\bootstrap-select.min.css" />
+    <Content Include="web\Company_SignUp_3_files\bootstrap-select.min.js" />
+    <Content Include="web\Company_SignUp_3_files\bootstrap-switch.min.css" />
+    <Content Include="web\Company_SignUp_3_files\bootstrap-switch.min.js" />
+    <Content Include="web\Company_SignUp_3_files\bootstrap.min.css" />
+    <Content Include="web\Company_SignUp_3_files\bootstrap.min.js" />
+    <Content Include="web\Company_SignUp_3_files\corp_step2.png" />
+    <Content Include="web\Company_SignUp_3_files\font-awesome.min.css" />
+    <Content Include="web\Company_SignUp_3_files\jquery-1.11.0.min.js" />
+    <Content Include="web\Company_SignUp_3_files\jquery.sparkline.min.js" />
+    <Content Include="web\Company_SignUp_3_files\script.js" />
+    <Content Include="web\Company_SignUp_3_files\style%281%29.css" />
+    <Content Include="web\Company_SignUp_3_files\style.css" />
+    <Content Include="web\Company_SignUp_3_files\style_new.css" />
+    <Content Include="web\Company_SignUp_3_files\summernote-bs3.css" />
+    <Content Include="web\Company_SignUp_3_files\summernote.css" />
+    <Content Include="web\Company_SignUp_3_files\summernote.min.js" />
+    <Content Include="web\Company_SignUp_3_files\wlogo_sm.png" />
+    <Content Include="web\Company_SignUp_4_files\bootstrap-filestyle.js" />
+    <Content Include="web\Company_SignUp_4_files\bootstrap-select.min.css" />
+    <Content Include="web\Company_SignUp_4_files\bootstrap-select.min.js" />
+    <Content Include="web\Company_SignUp_4_files\bootstrap-switch.min.css" />
+    <Content Include="web\Company_SignUp_4_files\bootstrap-switch.min.js" />
+    <Content Include="web\Company_SignUp_4_files\bootstrap.min.css" />
+    <Content Include="web\Company_SignUp_4_files\bootstrap.min.js" />
+    <Content Include="web\Company_SignUp_4_files\corp_step3.png" />
+    <Content Include="web\Company_SignUp_4_files\font-awesome.min.css" />
+    <Content Include="web\Company_SignUp_4_files\jquery-1.11.0.min.js" />
+    <Content Include="web\Company_SignUp_4_files\jquery.sparkline.min.js" />
+    <Content Include="web\Company_SignUp_4_files\script.js" />
+    <Content Include="web\Company_SignUp_4_files\style%281%29.css" />
+    <Content Include="web\Company_SignUp_4_files\style.css" />
+    <Content Include="web\Company_SignUp_4_files\style_new.css" />
+    <Content Include="web\Company_SignUp_4_files\summernote-bs3.css" />
+    <Content Include="web\Company_SignUp_4_files\summernote.css" />
+    <Content Include="web\Company_SignUp_4_files\summernote.min.js" />
+    <Content Include="web\Company_SignUp_4_files\wlogo_sm.png" />
+    <Content Include="web\Home_1_files\banner3.png" />
+    <Content Include="web\Home_1_files\Bitmap3.png" />
+    <Content Include="web\Home_1_files\bootstrap-filestyle.js" />
+    <Content Include="web\Home_1_files\bootstrap-select.min.css" />
+    <Content Include="web\Home_1_files\bootstrap-select.min.js" />
+    <Content Include="web\Home_1_files\bootstrap-switch.min.css" />
+    <Content Include="web\Home_1_files\bootstrap-switch.min.js" />
+    <Content Include="web\Home_1_files\bootstrap.min.css" />
+    <Content Include="web\Home_1_files\bootstrap.min.js" />
+    <Content Include="web\Home_1_files\font-awesome.min.css" />
+    <Content Include="web\Home_1_files\jquery-1.11.0.min.js" />
+    <Content Include="web\Home_1_files\jquery.sparkline.min.js" />
+    <Content Include="web\Home_1_files\languages.png" />
+    <Content Include="web\Home_1_files\style_new.css" />
+    <Content Include="web\Home_1_files\summernote.css" />
+    <Content Include="web\Home_1_files\summernote.min.js" />
+    <Content Include="web\Home_1_files\website6.png" />
+    <Content Include="web\Home_1_files\website7.png" />
+    <Content Include="web\Home_1_files\wlogo_sm.png" />
+    <Content Include="web\Home_2_files\bootstrap-filestyle.js" />
+    <Content Include="web\Home_2_files\bootstrap-select.min.css" />
+    <Content Include="web\Home_2_files\bootstrap-select.min.js" />
+    <Content Include="web\Home_2_files\bootstrap-switch.min.css" />
+    <Content Include="web\Home_2_files\bootstrap-switch.min.js" />
+    <Content Include="web\Home_2_files\bootstrap.min.css" />
+    <Content Include="web\Home_2_files\bootstrap.min.js" />
+    <Content Include="web\Home_2_files\corp.png" />
+    <Content Include="web\Home_2_files\font-awesome.min.css" />
+    <Content Include="web\Home_2_files\indexpic.png" />
+    <Content Include="web\Home_2_files\jquery-1.11.0.min.js" />
+    <Content Include="web\Home_2_files\jquery.sparkline.min.js" />
+    <Content Include="web\Home_2_files\logowall.png" />
+    <Content Include="web\Home_2_files\platform.png" />
+    <Content Include="web\Home_2_files\school.png" />
+    <Content Include="web\Home_2_files\style_new.css" />
+    <Content Include="web\Home_2_files\summernote.css" />
+    <Content Include="web\Home_2_files\summernote.min.js" />
+    <Content Include="web\Home_2_files\webfigure.png" />
+    <Content Include="web\Home_2_files\website4.png" />
+    <Content Include="web\Home_2_files\website5.png" />
+    <Content Include="web\Home_2_files\wlogo_sm.png" />
+    <Content Include="web\Home_SignIn.aspx" />
+    <Content Include="web\Home_SignIn_files\01.png" />
+    <Content Include="web\Home_SignIn_files\bootstrap-filestyle.js" />
+    <Content Include="web\Home_SignIn_files\bootstrap-select.min.css" />
+    <Content Include="web\Home_SignIn_files\bootstrap-select.min.js" />
+    <Content Include="web\Home_SignIn_files\bootstrap-switch.min.css" />
+    <Content Include="web\Home_SignIn_files\bootstrap-switch.min.js" />
+    <Content Include="web\Home_SignIn_files\bootstrap.min.css" />
+    <Content Include="web\Home_SignIn_files\bootstrap.min.js" />
+    <Content Include="web\Home_SignIn_files\bootstrapValidator.css" />
+    <Content Include="web\Home_SignIn_files\bootstrapValidator.js" />
+    <Content Include="web\Home_SignIn_files\font-awesome.min.css" />
+    <Content Include="web\Home_SignIn_files\jquery-1.11.0.min.js" />
+    <Content Include="web\Home_SignIn_files\jquery.sparkline.min.js" />
+    <Content Include="web\Home_SignIn_files\script.js" />
+    <Content Include="web\Home_SignIn_files\signin.css" />
+    <Content Include="web\Home_SignIn_files\style.css" />
+    <Content Include="web\Home_SignIn_files\style_new.css" />
+    <Content Include="web\Home_SignIn_files\summernote-bs3.css" />
+    <Content Include="web\Home_SignIn_files\summernote.css" />
+    <Content Include="web\Home_SignIn_files\summernote.min.js" />
+    <Content Include="web\Home_SignIn_files\wlogo.png" />
+    <Content Include="web\Home_SignUp_2_files\account.css" />
+    <Content Include="web\Home_SignUp_2_files\bootstrap-select.min.css" />
+    <Content Include="web\Home_SignUp_2_files\bootstrap-switch.min.css" />
+    <Content Include="web\Home_SignUp_2_files\bootstrap.css" />
+    <Content Include="web\Home_SignUp_2_files\bootstrap.min%281%29.js" />
+    <Content Include="web\Home_SignUp_2_files\bootstrap.min.css" />
+    <Content Include="web\Home_SignUp_2_files\bootstrap.min.js" />
+    <Content Include="web\Home_SignUp_2_files\index.js" />
+    <Content Include="web\Home_SignUp_2_files\jquery-1.11.1.min.js" />
+    <Content Include="web\Home_SignUp_2_files\morris.css" />
+    <Content Include="web\Home_SignUp_2_files\style.css" />
+    <Content Include="web\Home_SignUp_2_files\style_new.css" />
+    <Content Include="web\Home_SignUp_2_files\summernote-bs3.css" />
+    <Content Include="web\Home_SignUp_2_files\summernote.css" />
+    <Content Include="web\Home_SignUp_2_files\wlogo_sm.png" />
+    <Content Include="web\Home_SignUp_files\01.png" />
+    <Content Include="web\Home_SignUp_files\bootstrap-filestyle.js" />
+    <Content Include="web\Home_SignUp_files\bootstrap-select.min.css" />
+    <Content Include="web\Home_SignUp_files\bootstrap-select.min.js" />
+    <Content Include="web\Home_SignUp_files\bootstrap-switch.min.css" />
+    <Content Include="web\Home_SignUp_files\bootstrap-switch.min.js" />
+    <Content Include="web\Home_SignUp_files\bootstrap.min.css" />
+    <Content Include="web\Home_SignUp_files\bootstrap.min.js" />
+    <Content Include="web\Home_SignUp_files\bootstrapValidator.js" />
+    <Content Include="web\Home_SignUp_files\font-awesome.min.css" />
+    <Content Include="web\Home_SignUp_files\jquery-1.11.0.min.js" />
+    <Content Include="web\Home_SignUp_files\jquery.sparkline.min.js" />
+    <Content Include="web\Home_SignUp_files\script.js" />
+    <Content Include="web\Home_SignUp_files\signin.css" />
+    <Content Include="web\Home_SignUp_files\style.css" />
+    <Content Include="web\Home_SignUp_files\style_new.css" />
+    <Content Include="web\Home_SignUp_files\summernote-bs3.css" />
+    <Content Include="web\Home_SignUp_files\summernote.css" />
+    <Content Include="web\Home_SignUp_files\summernote.min.js" />
+    <Content Include="web\Home_SignUp_files\wlogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.designer.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.cs">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.designer.cs">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="web\Home_SignIn.aspx.cs">
+      <DependentUpon>Home_SignIn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\Home_SignIn.aspx.designer.cs">
+      <DependentUpon>Home_SignIn.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Account\Web.config" />
+    <Content Include="Site.Master" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>2504</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

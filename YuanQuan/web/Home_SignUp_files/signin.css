@@ -1,0 +1,63 @@
+.align-center {
+	text-align: center;
+}
+.align-left {
+	text-align: left;
+}
+.align-right {
+	text-align: right;
+}
+.background-cover {
+	background-size: cover; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover;
+}
+.valign-center {
+	vertical-align: middle; display: inline-block;
+}
+.valign-bottom {
+	vertical-align: bottom; display: inline-block;
+}
+.uppercase {
+	text-transform: uppercase;
+}
+.input-group-addon {
+	border-color: transparent; border-radius: 0px; box-shadow: 0px 0px 0px #ffffff; background-color: transparent; -webkit-box-shadow: 0 0 0 #ffffff; -webkit-border-radius: 0; -moz-box-shadow: 0 0 0 #ffffff;
+}
+.form-control {
+	border-color: transparent; border-radius: 0px; box-shadow: 0px 0px 0px #ffffff; background-color: transparent; -webkit-box-shadow: 0 0 0 #ffffff; -webkit-border-radius: 0; -moz-box-shadow: 0 0 0 #ffffff;
+}
+.input-group-btn > .btn {
+	border-color: transparent; border-radius: 0px; box-shadow: 0px 0px 0px #ffffff; -webkit-box-shadow: 0 0 0 #ffffff; -webkit-border-radius: 0; -moz-box-shadow: 0 0 0 #ffffff;
+}
+.form-control:focus {
+	border-color: transparent; box-shadow: 0px 0px 0px #ffffff; -webkit-box-shadow: 0 0 0 #ffffff; -moz-box-shadow: 0 0 0 #ffffff;
+}
+.form-group {
+	padding-bottom: 10px; border-bottom-color: rgb(221, 221, 221); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+:last-child.form-group {
+	border: 0px currentColor; border-image: none; padding-bottom: 0px; margin-bottom: 0px;
+}
+#middle {
+	background-color: transparent;
+}
+#middle .signin-page#content {
+	padding: 0px;
+}
+#middle .signin-page#content .panel .panel-heading {
+	border-radius: 0px; text-align: center; margin-bottom: 20px; background-color: rgb(106, 202, 243); -webkit-border-radius: 0;
+}
+#middle .signin-page#content .panel .panel-heading .panel-title {
+	padding: 25px 25px 10px; color: rgb(255, 255, 255); font-size: 1.8em; text-shadow: 0px 1px 2px rgba(0,0,0,0.1);
+}
+#middle #content .form-group {
+	padding-right: 25px; padding-left: 25px;
+}
+.brand {
+	margin-bottom: 40px;
+}
+.brand-big.brand {
+	font-size: 1.3em;
+}
+.brand-big.brand img {
+	display: inline-block;
+}
