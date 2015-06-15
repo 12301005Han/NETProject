@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
+
+    <title>Oxcoder后台</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="dashboard.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">OXcoder后台</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">admin</a></li>
+            <li><a href="#">退出</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-3 col-md-2 sidebar">
+             
+          <ul class="nav nav-sidebar">
+            
+            <li>用户管理</li>
+            
+            <li><a href="user.html">个人用户管理</a></li>
+            <li><a href="#">企业用户管理</a></li>
+            <li><a href="company.html">企业入驻审批</a></li>
+            <li><a href="#">邀请码管理</a></li>
+          </ul>
+    
+           <ul class="nav nav-sidebar">
+            <li class="nav-header">挑战管理</li>
+            <li><a href="challenge.html">挑战信息管理</a></li>
+            <li><a href="">挑战题目管理</a></li>
+          </ul> 
+           <ul class="nav nav-sidebar">
+            <li class="nav-header">练习场管理</li>
+            <li><a href="">练习场题目管理</a></li>
+          </ul>
+         <ul class="nav nav-sidebar">
+            <li class="nav-header">收入</li>
+            <li><a href="payment.html">收入管理</a></li>
+          </ul>
+             
+         <ul class="nav nav-sidebar">
+            <li class="nav-header">通知</li>
+            <li><a href="">通知管理</a></li>
+          </ul>
+             
+         <ul class="nav nav-sidebar">
+            <li>管理员</li>
+            <li class="active"><a href="admin.html">管理员管理</a></li>
+          </ul>
+        </div>
+
+
+
+
+
+
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+        <nav class="navbar ">
+            <div class="container-fluid">
+              <form class="navbar-form navbar-left">
+                 <input class="input-medium search-query" type="text" /> <button type="submit" class="btn">查找</button>
+              </form>
+              <button type="button" class="btn btn-primary navbar-right">新建</button>
+             </div>
+        </nav>
+       
+        
+          <div class="table-responsive">
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>用户名</th>
+                  <th>用户类型</th>
+                  <th>操作</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1,001</td>
+                  <td>xxxxx</td>
+                  <td>普通管理员</td>
+                  <td> <button class="btn btn-danger btn-small" type="button">屏蔽</button></td>
+                  
+                </tr>
+              </tbody>
+            </table>
+            <nav>
+  <ul class="pagination">
+    <li>
+      <a href="#" aria-label="Previous">
+        <span aria-hidden="true">&laquo;</span>
+      </a>
+    </li>
+    <li li class="active"><a href="#">1</a></li>
+    <li><a href="#">2</a></li>
+    <li><a href="#">3</a></li>
+    <li><a href="#">4</a></li>
+    <li><a href="#">5</a></li>
+    <li>
+      <a href="#" aria-label="Next">
+        <span aria-hidden="true">&raquo;</span>
+      </a>
+    </li>
+  </ul>
+</nav>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    
+    <script src="dist/js/bootstrap.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="assets/js/vendor/holder.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>

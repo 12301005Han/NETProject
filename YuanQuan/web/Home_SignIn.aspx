@@ -1,8 +1,6 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Home_SignIn.aspx.cs" Inherits="YuanQuan.web.Home_SignIn" %>
 
-<!DOCTYPE HTML>
-<!DOCTYPE html PUBLIC "" "">
-<HTML lang="en">
+<!DOCTYPE html PUBLIC "" ""><HTML lang="en">
 <HEAD>
 <META content="IE=11.0000" http-equiv="X-UA-Compatible">
  
@@ -57,17 +55,17 @@ src="Home_SignIn_files/wlogo.png">猿圈登录</H3>
 <DIV class="panel panel-outline panel-no-padding" style="border: currentColor; border-image: none;">
 <DIV class="panel-collapse collapse in" id="signin">
 <DIV class="panel-body col-md-6">
-<FORM class="form-horizontal" id="defaultForm" action="sub-signin.htm" method="post">
+<FORM class="form-horizontal" id="defaultForm" action="?Action=login" method="post">
 <DIV class="form-group">
 <DIV class="col-xs-12">
 <DIV class="input-group"><SPAN class="input-group-addon"><I class="fa fa-envelope"></I></SPAN> 
-<INPUT name="email" class="form-control input-lg" id="login-email" type="email" placeholder="请输入邮箱地址" value="">
+<INPUT name="email" class="form-control input-lg" id="login-email" type="email" placeholder="请输入邮箱地址" value="12301043@bjtu.edu.cn">
 													 </DIV></DIV></DIV>
 <DIV class="form-group">
 <DIV class="col-xs-12">
 <DIV class="input-group"><SPAN class="input-group-addon"><I 
 class="fa fa-key"></I></SPAN> 
-<INPUT name="pwd" class="form-control input-lg" id="login-password" type="password" placeholder="请输入密码" value="">
+<INPUT name="pwd" class="form-control input-lg" id="login-password" type="password" placeholder="请输入密码" value="12301043">
 													 </DIV></DIV></DIV>
 <DIV class="col-xs-12"><INPUT name="rememberFlag" style="margin-left: 20px;" 
 onchange="this.value=(rememberFlag.checked)?1:0" type="checkbox" checked="checked" 
@@ -75,8 +73,8 @@ value="1">记住我												 <SPAN style="float: right;"><A style="color: rgb
 href="http://www.oxcoder.com/user-to-forget-pwd.htm"><SMALL>忘记密码？</SMALL></A>
 												 </SPAN> <SPAN class="help-block" id="hint1" style="margin-left: 20px;"></SPAN><SPAN 
 class="help-block has-error" id="hint2" style="margin-left: 20px;"><SMALL class="help-block"></SMALL></SPAN></DIV>
-<DIV class="col-xs-12">
-<BUTTON class="btn btn-primary btn-lg" style="border-radius: 3px; margin-left: 20px;" type="submit" runat="server">登录</BUTTON>											 </DIV>
+<DIV class="col-xs-12"><BUTTON class="btn btn-primary btn-lg" style="border-radius: 3px; margin-left: 20px;" 
+type="submit">登录</BUTTON>											 </DIV>
 <DIV class="col-xs-12"></DIV></FORM></DIV><!-- /.panel-body -->									 
 <DIV class="panel-body col-md-6">
 <DIV style="margin: 20px;">

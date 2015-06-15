@@ -69,6 +69,7 @@
     <Content Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
+    <Content Include="web\Challenger_Home_1.htm" />
     <Content Include="web\Challenger_Home_1_files\bootstrap-filestyle.js" />
     <Content Include="web\Challenger_Home_1_files\bootstrap-select.min.css" />
     <Content Include="web\Challenger_Home_1_files\bootstrap-select.min.js" />
@@ -100,6 +101,7 @@
     <Content Include="web\Challenger_Home_1_files\wlogo_sm.png" />
     <Content Include="web\Challenger_Home_1_files\woo.css" />
     <Content Include="web\Challenger_Home_1_files\woo.js" />
+    <Content Include="web\Challenger_Home_2.2.htm" />
     <Content Include="web\Challenger_Home_2.2_files\bootstrap-filestyle.js" />
     <Content Include="web\Challenger_Home_2.2_files\bootstrap-select.min.css" />
     <Content Include="web\Challenger_Home_2.2_files\bootstrap-select.min.js" />
@@ -118,6 +120,7 @@
     <Content Include="web\Challenger_Home_2.2_files\summernote.css" />
     <Content Include="web\Challenger_Home_2.2_files\summernote.min.js" />
     <Content Include="web\Challenger_Home_2.2_files\wlogo_sm.png" />
+    <Content Include="web\Challenger_Home_2.htm" />
     <Content Include="web\Challenger_Home_2_files\bootstrap-filestyle.js" />
     <Content Include="web\Challenger_Home_2_files\bootstrap-select.min.css" />
     <Content Include="web\Challenger_Home_2_files\bootstrap-select.min.js" />
@@ -136,6 +139,7 @@
     <Content Include="web\Challenger_Home_2_files\summernote.css" />
     <Content Include="web\Challenger_Home_2_files\summernote.min.js" />
     <Content Include="web\Challenger_Home_2_files\wlogo_sm.png" />
+    <Content Include="web\Challenger_Home_3.2.htm" />
     <Content Include="web\Challenger_Home_3.2_files\bootstrap-filestyle.js" />
     <Content Include="web\Challenger_Home_3.2_files\bootstrap-select.min.css" />
     <Content Include="web\Challenger_Home_3.2_files\bootstrap-switch.min.css" />
@@ -160,6 +164,7 @@
     <Content Include="web\Challenger_Home_3.2_files\summernote.min.js" />
     <Content Include="web\Challenger_Home_3.2_files\wlogo_sm.png" />
     <Content Include="web\Challenger_Home_3.2_files\zhihu2.png" />
+    <Content Include="web\Challenger_Home_3.htm" />
     <Content Include="web\Challenger_Home_3_files\bootstrap-filestyle.js" />
     <Content Include="web\Challenger_Home_3_files\bootstrap-select.min.css" />
     <Content Include="web\Challenger_Home_3_files\bootstrap-select.min.js" />
@@ -181,6 +186,7 @@
     <Content Include="web\Challenger_Home_3_files\summernote.css" />
     <Content Include="web\Challenger_Home_3_files\summernote.min.js" />
     <Content Include="web\Challenger_Home_3_files\wlogo_sm.png" />
+    <Content Include="web\Challenger_Menu_1.htm" />
     <Content Include="web\Challenger_Menu_1_files\bootstrap-filestyle.js" />
     <Content Include="web\Challenger_Menu_1_files\bootstrap-select.min.css" />
     <Content Include="web\Challenger_Menu_1_files\bootstrap-select.min.js" />
@@ -200,6 +206,7 @@
     <Content Include="web\Challenger_Menu_1_files\summernote.css" />
     <Content Include="web\Challenger_Menu_1_files\summernote.min.js" />
     <Content Include="web\Challenger_Menu_1_files\wlogo_sm.png" />
+    <Content Include="web\Company_Home_1.1.htm" />
     <Content Include="web\Company_Home_1.1_files\1085.jpg" />
     <Content Include="web\Company_Home_1.1_files\bootstrap-filestyle.js" />
     <Content Include="web\Company_Home_1.1_files\bootstrap-select.min.css" />
@@ -219,6 +226,7 @@
     <Content Include="web\Company_Home_1.1_files\summernote.css" />
     <Content Include="web\Company_Home_1.1_files\summernote.min.js" />
     <Content Include="web\Company_Home_1.1_files\wlogo_sm.png" />
+    <Content Include="web\Company_Home_1.2.htm" />
     <Content Include="web\Company_Home_1.2_files\1085.jpg" />
     <Content Include="web\Company_Home_1.2_files\bootstrap-filestyle.js" />
     <Content Include="web\Company_Home_1.2_files\bootstrap-select.min.css" />
@@ -238,6 +246,7 @@
     <Content Include="web\Company_Home_1.2_files\summernote.css" />
     <Content Include="web\Company_Home_1.2_files\summernote.min.js" />
     <Content Include="web\Company_Home_1.2_files\wlogo_sm.png" />
+    <Content Include="web\Company_Home_2.htm" />
     <Content Include="web\Company_Home_2_files\bootstrap-filestyle.js" />
     <Content Include="web\Company_Home_2_files\bootstrap-select.min.css" />
     <Content Include="web\Company_Home_2_files\bootstrap-select.min.js" />
@@ -257,6 +266,7 @@
     <Content Include="web\Company_Home_2_files\summernote.css" />
     <Content Include="web\Company_Home_2_files\summernote.min.js" />
     <Content Include="web\Company_Home_2_files\wlogo_sm.png" />
+    <Content Include="web\Company_Menu_1.htm" />
     <Content Include="web\Company_Menu_1_files\1050.jpg" />
     <Content Include="web\Company_Menu_1_files\bootstrap-filestyle.js" />
     <Content Include="web\Company_Menu_1_files\bootstrap-select.min.css" />
@@ -278,6 +288,7 @@
     <Content Include="web\Company_Menu_1_files\summernote.css" />
     <Content Include="web\Company_Menu_1_files\summernote.min.js" />
     <Content Include="web\Company_Menu_1_files\wlogo_sm.png" />
+    <Content Include="web\Company_Menu_2.htm" />
     <Content Include="web\Company_Menu_2_files\1050.jpg" />
     <Content Include="web\Company_Menu_2_files\bootstrap-filestyle.js" />
     <Content Include="web\Company_Menu_2_files\bootstrap-select.min.css" />
@@ -297,6 +308,7 @@
     <Content Include="web\Company_Menu_2_files\summernote.css" />
     <Content Include="web\Company_Menu_2_files\summernote.min.js" />
     <Content Include="web\Company_Menu_2_files\wlogo_sm.png" />
+    <Content Include="web\Company_Menu_3.htm" />
     <Content Include="web\Company_Menu_3_files\bootstrap-filestyle.js" />
     <Content Include="web\Company_Menu_3_files\bootstrap-select.min.css" />
     <Content Include="web\Company_Menu_3_files\bootstrap-select.min.js" />
@@ -316,6 +328,9 @@
     <Content Include="web\Company_Menu_3_files\summernote.css" />
     <Content Include="web\Company_Menu_3_files\summernote.min.js" />
     <Content Include="web\Company_Menu_3_files\wlogo_sm.png" />
+    <Content Include="web\Company_new.htm" />
+    <Content Include="web\Company_new_1.htm" />
+    <Content Include="web\Company_new_2.htm" />
     <Content Include="web\Company_new_files\1085.jpg" />
     <Content Include="web\Company_new_files\android.png" />
     <Content Include="web\Company_new_files\apple.png" />
@@ -346,6 +361,7 @@
     <Content Include="web\Company_new_files\summernote.min.js" />
     <Content Include="web\Company_new_files\WdatePicker.js" />
     <Content Include="web\Company_new_files\wlogo_sm.png" />
+    <Content Include="web\Company_SignUp_1.htm" />
     <Content Include="web\Company_SignUp_1_files\bootstrap-filestyle.js" />
     <Content Include="web\Company_SignUp_1_files\bootstrap-select.min.css" />
     <Content Include="web\Company_SignUp_1_files\bootstrap-select.min.js" />
@@ -367,6 +383,8 @@
     <Content Include="web\Company_SignUp_1_files\summernote.css" />
     <Content Include="web\Company_SignUp_1_files\summernote.min.js" />
     <Content Include="web\Company_SignUp_1_files\wlogo_sm.png" />
+    <Content Include="web\Company_SignUp_2_htm.htm" />
+    <Content Include="web\Company_SignUp_3.htm" />
     <Content Include="web\Company_SignUp_3_files\bootstrap-filestyle.js" />
     <Content Include="web\Company_SignUp_3_files\bootstrap-select.min.css" />
     <Content Include="web\Company_SignUp_3_files\bootstrap-select.min.js" />
@@ -386,6 +404,7 @@
     <Content Include="web\Company_SignUp_3_files\summernote.css" />
     <Content Include="web\Company_SignUp_3_files\summernote.min.js" />
     <Content Include="web\Company_SignUp_3_files\wlogo_sm.png" />
+    <Content Include="web\Company_SignUp_4.htm" />
     <Content Include="web\Company_SignUp_4_files\bootstrap-filestyle.js" />
     <Content Include="web\Company_SignUp_4_files\bootstrap-select.min.css" />
     <Content Include="web\Company_SignUp_4_files\bootstrap-select.min.js" />
@@ -405,6 +424,7 @@
     <Content Include="web\Company_SignUp_4_files\summernote.css" />
     <Content Include="web\Company_SignUp_4_files\summernote.min.js" />
     <Content Include="web\Company_SignUp_4_files\wlogo_sm.png" />
+    <Content Include="web\Home_1.htm" />
     <Content Include="web\Home_1_files\banner3.png" />
     <Content Include="web\Home_1_files\Bitmap3.png" />
     <Content Include="web\Home_1_files\bootstrap-filestyle.js" />
@@ -424,6 +444,7 @@
     <Content Include="web\Home_1_files\website6.png" />
     <Content Include="web\Home_1_files\website7.png" />
     <Content Include="web\Home_1_files\wlogo_sm.png" />
+    <Content Include="web\Home_2.htm" />
     <Content Include="web\Home_2_files\bootstrap-filestyle.js" />
     <Content Include="web\Home_2_files\bootstrap-select.min.css" />
     <Content Include="web\Home_2_files\bootstrap-select.min.js" />
@@ -447,6 +468,7 @@
     <Content Include="web\Home_2_files\website5.png" />
     <Content Include="web\Home_2_files\wlogo_sm.png" />
     <Content Include="web\Home_SignIn.aspx" />
+    <Content Include="web\Home_SignIn.htm" />
     <Content Include="web\Home_SignIn_files\01.png" />
     <Content Include="web\Home_SignIn_files\bootstrap-filestyle.js" />
     <Content Include="web\Home_SignIn_files\bootstrap-select.min.css" />
@@ -468,6 +490,9 @@
     <Content Include="web\Home_SignIn_files\summernote.css" />
     <Content Include="web\Home_SignIn_files\summernote.min.js" />
     <Content Include="web\Home_SignIn_files\wlogo.png" />
+    <Content Include="web\Home_SignUp.htm" />
+    <Content Include="web\Home_SignUp_1.htm" />
+    <Content Include="web\Home_SignUp_2.htm" />
     <Content Include="web\Home_SignUp_2_files\account.css" />
     <Content Include="web\Home_SignUp_2_files\bootstrap-select.min.css" />
     <Content Include="web\Home_SignUp_2_files\bootstrap-switch.min.css" />

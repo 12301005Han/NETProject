@@ -12,6 +12,29 @@ namespace YuanQuan.web
         protected void Page_Load(object sender, EventArgs e)
         {
 
+            try
+            {
+                String Action ="";
+
+                if (!string.IsNullOrEmpty(Request.QueryString["Action"]))//获取form的Action中的参数
+                {
+                    Action = Request.QueryString["Action"].Trim().ToLower();//去掉空格并变小写
+                }
+                switch (Action)
+                {
+                    case "login":
+
+                        //Response.Write("hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh");
+                        
+                        break;
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+
         }
+
     }
 }

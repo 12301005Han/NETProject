@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
+
+    <title>Oxcoder后台</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="dashboard.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">OXcoder后台</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">admin</a></li>
+            <li><a href="#">退出</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-3 col-md-2 sidebar">
+             
+          <ul class="nav nav-sidebar">
+            
+            <li>用户管理</li>
+            
+            <li class="active"><a href="user.html">个人用户管理</a></li>
+            <li><a href="#">企业用户管理</a></li>
+            <li><a href="company.html">企业入驻审批</a></li>
+            <li><a href="#">邀请码管理</a></li>
+          </ul>
+    
+           <ul class="nav nav-sidebar">
+            <li class="nav-header">挑战管理</li>
+            <li><a href="challenge.html">挑战信息管理</a></li>
+            <li><a href="">挑战题目管理</a></li>
+          </ul> 
+           <ul class="nav nav-sidebar">
+            <li class="nav-header">练习场管理</li>
+            <li><a href="">练习场题目管理</a></li>
+          </ul>
+         <ul class="nav nav-sidebar">
+            <li class="nav-header">收入</li>
+            <li><a href="payment.html">收入管理</a></li>
+          </ul>
+             
+         <ul class="nav nav-sidebar">
+            <li class="nav-header">通知</li>
+            <li><a href="">通知管理</a></li>
+          </ul>
+             
+         <ul class="nav nav-sidebar">
+            <li>管理员</li>
+            <li><a href="admin.html">管理员管理</a></li>
+          </ul>
+        </div>
+
+
+
+
+
+
+
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+          <div class="table-responsive">
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>姓名</th>
+                  <th>年龄</th>
+                  <th>性别</th>
+                  <th>手机</th>
+                  <th>邮箱</th>
+                  <th>身价</th>
+                  <th>级别</th>
+                  <th>技术类型</th>
+                  <th>接受挑战数量</th>
+                  <th>绑定社交账号</th>
+                  <th>更新时间</th>
+                  <th>操作</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1,001</td>
+                  <td>Lorem</td>
+                  <td>20</td>
+                  <td>男</td>
+                  <td>1888888888</td>
+                  <td>4424243@qq.com</td>
+                  <td>8543</td>
+                  <td>4</td>
+                  <td>C#</td>
+                  <td>13</td>
+                  <td>github</td>
+                  <td>2220-09-04 01:03:33</td>
+                  <td>
+                  <button class="btn btn-small disabled btn-danger"type="button">屏蔽</button>
+                  <button class="btn btn-small disabled btn-primary" type="button">详情(数据统计）</button>
+                  <button class="btn btn-small disabled btn-danger"type="button">Rock</button>
+                  <button class="btn btn-small disabled btn-danger"type="button">时间机</button>   
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    
+    <script src="dist/js/bootstrap.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="assets/js/vendor/holder.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
